@@ -3,12 +3,12 @@
 //cria array com todas as janelas
 let windows = document.querySelectorAll('.window');
 
-//função para ligar todas as luzes com a classe yellow
+//função para ligar todas as luzes com a classe light
 let on = function(){
   windows.forEach((window) => window.classList.add('light'));
 }
 
-//função para apagar todas as luzes com a classe yellow
+//função para apagar todas as luzes com a classe light
 let off = function(){
   windows.forEach((window) => window.classList.remove('light'));
 }
