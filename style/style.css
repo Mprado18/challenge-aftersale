@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
 *{
 	margin: 0;
 	padding: 0; 
 	box-sizing: border-box;
 	overflow: hidden;
+    font-family: 'Nunito', 'Sans-Serif';
 }
 
 /*background default*/
@@ -15,12 +18,23 @@
     margin: 18px 0px 0px 20px;
     padding: 5px;
     width: 100px;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: #5c4d85;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Nunito', 'Sans-Serif';
+}
+
+.button:focus{
+    outline: none;
+    background-color: #e68174;
 }
 
 .button p{
     text-align: center;
     margin-top: 50px;
-    font-family: Helvetica, sans-serif;
 }
 
 /*center*/
@@ -42,7 +56,7 @@
 	height: 560px;
 	width: 250px;
 	border: 2px solid rgb(68, 66, 66);
-	background-color: #825280;
+	background-color: rgb(153, 104, 151);
 	padding: 20px;
 }
 
@@ -52,7 +66,7 @@
 	height: 60px;
     border: 0.5px solid rgba(0, 0, 0, 0.8);
     border-radius: 4px;
-	background: rgb(172, 172, 172);
+	background-color: rgb(85, 85, 85);
 	cursor: pointer;
 }
 
