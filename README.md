@@ -18,3 +18,9 @@ O projeto é uma interface gráfica simples, a qual temos um prédio com doze ja
 Faça o download dos arquivos em formato zip e os descompacte, entre na pasta descompactada e abra o arquivo `index.html` clicando duas vezes sobre o mesmo ou arrastando-o para sua janela de navegador para executa-lo.
 
 Ou acessando o link de execução online: [Clique aqui para executar](https://mprado18.github.io/challenge-aftersale/ "projeto")
+
+### Demo visual da interface:
+
+<p align="center">
+ <img src="demo.PNG"  align = "center"/>
+</p>
