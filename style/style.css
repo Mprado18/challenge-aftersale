@@ -1,0 +1,79 @@
+*{
+	margin: 0;
+	padding: 0; 
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+/*background default*/
+#day{
+	background-color: #87ceeb;
+}
+
+/*configuração dos buttons*/
+.button {
+    margin: 18px 0px 0px 20px;
+    padding: 5px;
+    width: 100px;
+}
+
+.button p{
+    text-align: center;
+    margin-top: 50px;
+    font-family: Helvetica, sans-serif;
+}
+
+/*center*/
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+/*configuração do prédio*/
+.container .predio{
+	position: absolute;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+	justify-content: center;
+	align-items: center;
+	height: 560px;
+	width: 250px;
+	border: 2px solid rgb(68, 66, 66);
+	background-color: #825280;
+	padding: 20px;
+}
+
+/*alinhamento das janelas*/
+.window{
+	width: 85px;
+	height: 60px;
+    border: 0.5px solid rgba(0, 0, 0, 0.8);
+    border-radius: 4px;
+	background: rgb(172, 172, 172);
+	cursor: pointer;
+}
+
+.space{
+	margin-left: 10px;
+}
+
+/*configuração da porta*/
+.door{
+	width: 40px;
+	height: 80px;
+	background-color: #8f5e1f;
+	position: relative;
+	bottom: -18px;
+    border: 1px solid #472e0c;
+    border-bottom: none;
+}
+
+/*configuração da luz*/
+.light{
+	background-color: #f5f57a !important;
+	box-shadow: 0 0 10px #ffff40,
+				0 0 15px #ffff40;
+}
